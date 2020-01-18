@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#navmain{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+#burgermenu{
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.navgroup{
+    display: flex;
+}
+
+.navgroup div a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.navgroup div div a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+#maincontent{
+    padding-top: 150px;
+}
+
+#mainbuttons{
+    display: flex;
+    width: 320px;
+    justify-content: space-around;
+}
+
+#mainbuttons div input{
+    color: gray;
+
+}
+
+#footer{
+    display: block;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#bottomfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftlinks{
+    display: flex;
+    width: 100%;
+}
+
+.rightlinks{
+    float: right;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
